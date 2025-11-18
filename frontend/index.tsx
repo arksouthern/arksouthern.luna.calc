@@ -10,7 +10,7 @@ import { kbdShortcutOn } from '~/lib/luna'
 import { XpBarMenu, XpBarMenuDivider, XpBarMenuItem, XpBarMenuMasterItem } from "~/components/luna/bar-menu"
 import { createAbout } from "~/components/luna/about"
 
-const API = createApi<typeof api>("@arksouthern/luna.run")
+const API = createApi<typeof api>("@arksouthern/luna.calc")
 
 const INF = new Intl.NumberFormat(undefined)
 
