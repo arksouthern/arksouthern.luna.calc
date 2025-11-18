@@ -6,8 +6,7 @@ import { App } from "~/Types"
 import { XpWindow } from "~/components/luna/window"
 import { XpTitleButtons, XpTitleButtonsClose, XpTitleButtonsNormal } from "~/components/luna/title-buttons"
 import type { api } from "../backend"
-import { closeAppWindow, kbdShortcutOn, openApp, openFilePicker, queryBinLinkedShortcut, queryFileOpener } from '~/lib/luna'
-import { XpButton } from "~/components/luna/button"
+import { kbdShortcutOn } from '~/lib/luna'
 import { XpBarMenu, XpBarMenuDivider, XpBarMenuItem, XpBarMenuMasterItem } from "~/components/luna/bar-menu"
 import { createAbout } from "~/components/luna/about"
 
