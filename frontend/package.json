@@ -1,0 +1,13 @@
+{
+    "displayName": "Calculator",
+    "name": "@arksouthern/luna.calc",
+    "description": "Calculator program",
+    "author": {
+        "name": "Ark Southern"
+    },
+    "version": "v0.0.1",
+    "license": "MIT",
+    "dependencies": {
+    },
+    "icon": "/src/assets/xp-archive/calc_SC.ico"
+}
